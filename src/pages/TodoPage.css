@@ -1,0 +1,13 @@
+.todoContainer {
+  background-color: #2a9d9f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.todoContainer h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 48px;
+}

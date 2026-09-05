@@ -1,0 +1,51 @@
+.todoCard {
+  background: #f4ebd0;
+  border: 1px solid #cde7d8;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  color: #2b2d42;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.todoCard input[type="text"] {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  width: 250px;
+}
+.todoCard input[type="checkbox"] {
+  cursor: pointer;
+}
+.todoCard span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+}
+.todoCard button {
+  background: #e76f51;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.taskContent {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.taskContent span {
+  text-align: left;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
